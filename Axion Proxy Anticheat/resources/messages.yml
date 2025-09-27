@@ -1,0 +1,30 @@
+# Axion AntiCheat Messages
+
+general:
+  plugin_enabled: "&aAxion AntiCheat Enabled!"
+  plugin_disabled: "&cAxion AntiCheat Disabled!"
+
+movement:
+  speed_violation: "&cYou are moving too fast! Violation #{violation}"
+  fly_violation: "&cFly hack detected! Violation #{violation}"
+
+combat:
+  kill_aura_violation: "&cKillAura detected! Violation #{violation}"
+  reach_violation: "&cReach hack detected! Violation #{violation}"
+
+chat:
+  spam_violation: "&cPlease stop spamming chat! Violation #{violation}"
+  repeat_violation: "&cRepeated message detected! Violation #{violation}"
+  badword_violation: "&cYou used a prohibited word! Violation #{violation}"
+
+auto_kick:
+  kick_message: "&cYou have been kicked for violating server rules. Total violations: #{violation}"
+
+logging:
+  speed_detected: "[ANTI-CHEAT] {player} triggered SpeedCheck (Speed: {speed})"
+  fly_detected: "[ANTI-CHEAT] {player} triggered FlyCheck (Vertical speed: {speed})"
+  kill_aura_detected: "[ANTI-CHEAT] {player} triggered KillAuraCheck (CPS: {cps})"
+  reach_detected: "[ANTI-CHEAT] {player} triggered ReachCheck (Distance: {distance})"
+  spam_detected: "[ANTI-CHEAT] {player} triggered SpamCheck (Message: {message})"
+  badword_detected: "[ANTI-CHEAT] {player} triggered BadWordCheck (Word: {word})"
+  auto_kick: "[ANTI-CHEAT] {player} was auto-kicked for reaching {violation} violations"

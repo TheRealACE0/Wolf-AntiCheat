@@ -1,0 +1,26 @@
+# Axion AntiCheat Configuration
+
+# Movement Checks
+movement:
+  max_speed: 5.0           # Maximum blocks per second
+  max_vertical_speed: 1.5  # Maximum blocks per second vertically
+
+# Combat Checks
+combat:
+  max_cps: 20              # Maximum clicks per second
+  max_reach: 4.5           # Maximum attack reach in blocks
+
+# Chat Checks
+chat:
+  min_message_delay: 1000  # Minimum time (ms) between messages
+  max_repeat_count: 3      # Maximum repeated messages before violation
+  max_chat_violations: 5   # Maximum chat violations before kick
+
+# Bad Words
+bad_words:
+  - badword1
+  - badword2
+  - badword3
+
+# Optional: auto-kick after this many total violations
+auto_kick_violations: 5
